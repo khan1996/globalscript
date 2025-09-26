@@ -1,0 +1,756 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Item">
+      <UniqueIdentifier>{6d8a64f1-d4ea-4a88-b85e-e0bb094aa2a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{48ebd0bc-d9c1-4b5f-b2f8-7f454b5331b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\Math">
+      <UniqueIdentifier>{9b0fdd98-bf57-4fd5-b3cd-cf3220867448}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\Compress">
+      <UniqueIdentifier>{9ca0435b-3ed1-4748-aab5-241a667e5ec8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\Compress\MiniLZO">
+      <UniqueIdentifier>{e557c181-24c8-4f79-a66f-ffe0d7107152}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\Resource">
+      <UniqueIdentifier>{0f1924e6-5cd1-4458-8f95-c849068eb1b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\CheckSum">
+      <UniqueIdentifier>{a0768121-39b8-416c-b8be-062541798641}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\Setup">
+      <UniqueIdentifier>{10ee4f50-b4c1-49ff-ba45-9fce4f022c31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Creature">
+      <UniqueIdentifier>{72e7b201-bc43-493f-9692-47e81739ab0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Creature\Character">
+      <UniqueIdentifier>{5218f7a7-b961-43fd-bd37-f2b3466738b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Creature\Monster">
+      <UniqueIdentifier>{fb5420eb-136e-4ff6-ae7b-5ee6608dff7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Creature\Siege">
+      <UniqueIdentifier>{520effa6-510b-4e45-8eb7-b8c2d995f9a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Skill">
+      <UniqueIdentifier>{d5a33fce-6d7a-46a6-8eca-78de932db631}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Skill\Spell">
+      <UniqueIdentifier>{9a7ead15-e478-429e-b89f-95f4088b5c37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Log">
+      <UniqueIdentifier>{31c56f78-c49f-4c07-bef6-cfdb4322bdba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pattern">
+      <UniqueIdentifier>{d2326e11-8823-4890-a9c1-0f6cd00ad702}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DB">
+      <UniqueIdentifier>{181f43d9-3e69-4433-8ddc-5e0629023fb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScriptEngine">
+      <UniqueIdentifier>{de47666f-3b8d-4aa1-b22e-085dfb4abd23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Thread">
+      <UniqueIdentifier>{4753a38d-c5f5-4f95-8abf-28e2d7a584e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network">
+      <UniqueIdentifier>{32cdf7aa-6a07-4f6a-89fb-8c665f28b3b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Packet">
+      <UniqueIdentifier>{e39c5d47-8fe9-4c1f-8ae4-5311c2543c41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Packet\PacketStruct">
+      <UniqueIdentifier>{d55add47-9e7d-4625-8f4e-93b0fb651bfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\ClientSocket">
+      <UniqueIdentifier>{c7ae8855-9fbc-45c4-9a49-6862f0f5c475}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\ClientSocket\Parse">
+      <UniqueIdentifier>{938773e9-011d-4c2e-87d0-d9ad533ce658}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\ClientSocket\Send">
+      <UniqueIdentifier>{9db8decc-feb4-4851-a4fb-dc3d16fba088}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\XORCrypt">
+      <UniqueIdentifier>{38b66466-8a5b-43c8-9fbe-ab4c5d1009cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\ClientNetwork">
+      <UniqueIdentifier>{4482456d-acaf-49fd-8eb9-3e2603755de3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Address">
+      <UniqueIdentifier>{b64c2526-b954-4e40-902f-ee2012571107}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Broadcast">
+      <UniqueIdentifier>{935c83c8-8ab2-42d8-a44d-12f2a95ae293}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Community">
+      <UniqueIdentifier>{d1560007-387f-403a-a7a1-e88e16ae3375}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Community\Guild">
+      <UniqueIdentifier>{24e77d73-5d63-4172-a6dc-a21cf538c88b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Castle">
+      <UniqueIdentifier>{c8fd985b-a5c1-436a-8a05-d3288b93628b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quest">
+      <UniqueIdentifier>{58040b97-db1b-4fb6-92d7-a7a763baeabd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map">
+      <UniqueIdentifier>{2e5ee0b3-c32f-4143-8c43-565b25683b22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map\FieldMap">
+      <UniqueIdentifier>{3a4e3206-dfe2-428f-aac0-b75a147b9600}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameTime">
+      <UniqueIdentifier>{39f403d2-9d3c-4f3b-b73b-341dbbf88430}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameGuardLib">
+      <UniqueIdentifier>{7d69a959-3502-4a33-bfcd-5e71f7a41a2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HShield">
+      <UniqueIdentifier>{616689f1-02f2-456c-911c-16693025fe71}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Item\Item.cpp">
+      <Filter>Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Item\ItemConstants.cpp">
+      <Filter>Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Item\ItemDataParser.cpp">
+      <Filter>Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Item\ItemFactory.cpp">
+      <Filter>Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Item\ItemMgr.cpp">
+      <Filter>Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Item\ItemStructure.cpp">
+      <Filter>Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\DelimitedFile.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\Exception.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\SystemInfo.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\timer.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\TokenlizedFile.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\TypeArray.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\Math\Math.cpp">
+      <Filter>Utility\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\Math\PseudoRandom.cpp">
+      <Filter>Utility\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\Math\Random.cpp">
+      <Filter>Utility\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\Compress\MiniLZO\minilzo.cpp">
+      <Filter>Utility\Compress\MiniLZO</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\Compress\MiniLZO\miniLZOWrapper.cpp">
+      <Filter>Utility\Compress\MiniLZO</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\CheckSum\Crc32Static.cpp">
+      <Filter>Utility\CheckSum</Filter>
+    </ClCompile>
+    <ClCompile Include="Creature\CreatureStructure.cpp">
+      <Filter>Creature</Filter>
+    </ClCompile>
+    <ClCompile Include="Creature\EnemyCheck.cpp">
+      <Filter>Creature</Filter>
+    </ClCompile>
+    <ClCompile Include="Creature\Character\CharacterClass.cpp">
+      <Filter>Creature\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Creature\Character\CharacterStructure.cpp">
+      <Filter>Creature\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Creature\Monster\MonsterMgr.cpp">
+      <Filter>Creature\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Creature\Monster\MonsterStructure.cpp">
+      <Filter>Creature\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Skill\SkillMgr.cpp">
+      <Filter>Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Skill\SkillStructure.cpp">
+      <Filter>Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Thread\ThreadMgr.cpp">
+      <Filter>Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Packet\PacketBase.cpp">
+      <Filter>Network\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Packet\PacketStruct\CharMovePacket.cpp">
+      <Filter>Network\Packet\PacketStruct</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\ClientSocket\ClientSocket.cpp">
+      <Filter>Network\ClientSocket</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\ClientSocket\LoginSocket.cpp">
+      <Filter>Network\ClientSocket</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\ClientSocket\UDPList.cpp">
+      <Filter>Network\ClientSocket</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\ClientSocket\parse\ParseAuthServer.cpp">
+      <Filter>Network\ClientSocket\Parse</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\ClientSocket\parse\ParseBGServer.cpp">
+      <Filter>Network\ClientSocket\Parse</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\ClientSocket\parse\ParseCastle.cpp">
+      <Filter>Network\ClientSocket\Parse</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\ClientSocket\parse\ParseCharInfo.cpp">
+      <Filter>Network\ClientSocket\Parse</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\ClientSocket\parse\ParseCommunity.cpp">
+      <Filter>Network\ClientSocket\Parse</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\ClientSocket\parse\ParseEtc.cpp">
+      <Filter>Network\ClientSocket\Parse</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\ClientSocket\parse\ParseFight.cpp">
+      <Filter>Network\ClientSocket\Parse</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\ClientSocket\parse\ParseItem.cpp">
+      <Filter>Network\ClientSocket\Parse</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\ClientSocket\parse\ParseLoginout.cpp">
+      <Filter>Network\ClientSocket\Parse</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\ClientSocket\parse\ParseMove.cpp">
+      <Filter>Network\ClientSocket\Parse</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\ClientSocket\parse\ParseQuest.cpp">
+      <Filter>Network\ClientSocket\Parse</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\ClientSocket\parse\ParseSkill.cpp">
+      <Filter>Network\ClientSocket\Parse</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\ClientSocket\send\SendAttack.cpp">
+      <Filter>Network\ClientSocket\Send</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\ClientSocket\send\SendAuthServer.cpp">
+      <Filter>Network\ClientSocket\Send</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\ClientSocket\send\SendBGServer.cpp">
+      <Filter>Network\ClientSocket\Send</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\ClientSocket\send\SendCastle.cpp">
+      <Filter>Network\ClientSocket\Send</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\ClientSocket\send\SendCommunity.cpp">
+      <Filter>Network\ClientSocket\Send</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\ClientSocket\send\SendEtc.cpp">
+      <Filter>Network\ClientSocket\Send</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\ClientSocket\send\SendItem.cpp">
+      <Filter>Network\ClientSocket\Send</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\ClientSocket\send\SendLoginout.cpp">
+      <Filter>Network\ClientSocket\Send</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\ClientSocket\send\SendMove.cpp">
+      <Filter>Network\ClientSocket\Send</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\ClientSocket\send\SendPacket.cpp">
+      <Filter>Network\ClientSocket\Send</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\ClientSocket\send\SendQuest.cpp">
+      <Filter>Network\ClientSocket\Send</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\ClientSocket\send\SendSkill.cpp">
+      <Filter>Network\ClientSocket\Send</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\XORCrypt\XORCrypt.cpp">
+      <Filter>Network\XORCrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\XORCrypt\XORCryptoCodeList.cpp">
+      <Filter>Network\XORCrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\ClientNetwork\ClientEventHandler.cpp">
+      <Filter>Network\ClientNetwork</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\ClientNetwork\MessageBlock.cpp">
+      <Filter>Network\ClientNetwork</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\ClientNetwork\NetworkMsgBlock.cpp">
+      <Filter>Network\ClientNetwork</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\ClientNetwork\Session.cpp">
+      <Filter>Network\ClientNetwork</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\ClientNetwork\SessionMgr.cpp">
+      <Filter>Network\ClientNetwork</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\ClientNetwork\TCPSession.cpp">
+      <Filter>Network\ClientNetwork</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\ClientNetwork\UDPSession.cpp">
+      <Filter>Network\ClientNetwork</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Address\INET_Addr.cpp">
+      <Filter>Network\Address</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Broadcast\BroadcastCharacterData.cpp">
+      <Filter>Network\Broadcast</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Broadcast\ClientCellMgr.cpp">
+      <Filter>Network\Broadcast</Filter>
+    </ClCompile>
+    <ClCompile Include="Castle\CastleBlessMgr.cpp">
+      <Filter>Castle</Filter>
+    </ClCompile>
+    <ClCompile Include="Quest\QuestList.cpp">
+      <Filter>Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="Map\FieldMap\MineralVeinMgr.cpp">
+      <Filter>Map\FieldMap</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Item\Item.h">
+      <Filter>Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Item\ItemConstants.h">
+      <Filter>Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Item\ItemDataParser.h">
+      <Filter>Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Item\ItemFactory.h">
+      <Filter>Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Item\ItemMgr.h">
+      <Filter>Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Item\ItemStructure.h">
+      <Filter>Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\bit_flags.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\data_types.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\DbgHelp.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\debug.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\DelimitedFile.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\Exception.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\numeric_tools.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\SystemInfo.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\timer.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\TokenlizedFile.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\TypeArray.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\Math\Math.h">
+      <Filter>Utility\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\Math\PseudoRandom.h">
+      <Filter>Utility\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\Math\Random.h">
+      <Filter>Utility\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\Compress\MiniLZO\lzoconf.h">
+      <Filter>Utility\Compress\MiniLZO</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\Compress\MiniLZO\minilzo.h">
+      <Filter>Utility\Compress\MiniLZO</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\Compress\MiniLZO\miniLZOWrapper.h">
+      <Filter>Utility\Compress\MiniLZO</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\Resource\EnsureCleanup.h">
+      <Filter>Utility\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\CheckSum\Common.h">
+      <Filter>Utility\CheckSum</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\CheckSum\Crc32Static.h">
+      <Filter>Utility\CheckSum</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\Setup\GlobalConstants.h">
+      <Filter>Utility\Setup</Filter>
+    </ClInclude>
+    <ClInclude Include="Creature\CreatureStructure.h">
+      <Filter>Creature</Filter>
+    </ClInclude>
+    <ClInclude Include="Creature\EnemyCheck.h">
+      <Filter>Creature</Filter>
+    </ClInclude>
+    <ClInclude Include="Creature\Character\CharacterClass.h">
+      <Filter>Creature\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Creature\Character\CharacterStructure.h">
+      <Filter>Creature\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Creature\Monster\MonsterMgr.h">
+      <Filter>Creature\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Creature\Monster\MonsterStructure.h">
+      <Filter>Creature\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Creature\Siege\BroadCastSiegeObjectData.h">
+      <Filter>Creature\Siege</Filter>
+    </ClInclude>
+    <ClInclude Include="Creature\Siege\SiegeConstants.h">
+      <Filter>Creature\Siege</Filter>
+    </ClInclude>
+    <ClInclude Include="Skill\SkillMgr.h">
+      <Filter>Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Skill\SkillStructure.h">
+      <Filter>Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Skill\Spell\SpellKind.h">
+      <Filter>Skill\Spell</Filter>
+    </ClInclude>
+    <ClInclude Include="Log\ServerLog.h">
+      <Filter>Log</Filter>
+    </ClInclude>
+    <ClInclude Include="Pattern\Singleton.h">
+      <Filter>Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="Db\DBdefine.h">
+      <Filter>DB</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptEngine\BaseDef.h">
+      <Filter>ScriptEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptEngine\ScriptEngine.h">
+      <Filter>ScriptEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Thread\Lock.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="Thread\Thread.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="Thread\ThreadMgr.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Packet\PacketBase.h">
+      <Filter>Network\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Packet\PacketCommand.h">
+      <Filter>Network\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Packet\PacketStruct\AddressPacket.h">
+      <Filter>Network\Packet\PacketStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Packet\PacketStruct\AuthServerToDBAgentServer.h">
+      <Filter>Network\Packet\PacketStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Packet\PacketStruct\BGServerPacket.h">
+      <Filter>Network\Packet\PacketStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Packet\PacketStruct\CastlePacket.h">
+      <Filter>Network\Packet\PacketStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Packet\PacketStruct\CharAdminPacket.h">
+      <Filter>Network\Packet\PacketStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Packet\PacketStruct\CharAttackPacket.h">
+      <Filter>Network\Packet\PacketStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Packet\PacketStruct\CharAttackPacketStruct.h">
+      <Filter>Network\Packet\PacketStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Packet\PacketStruct\CharBroadcastPacket.h">
+      <Filter>Network\Packet\PacketStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Packet\PacketStruct\CharCommunityPacket.h">
+      <Filter>Network\Packet\PacketStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Packet\PacketStruct\CharCommunityPacketStruct.h">
+      <Filter>Network\Packet\PacketStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Packet\PacketStruct\CharConfigPacket.h">
+      <Filter>Network\Packet\PacketStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Packet\PacketStruct\CharConfigPacketStruct.h">
+      <Filter>Network\Packet\PacketStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Packet\PacketStruct\CharItemPacket.h">
+      <Filter>Network\Packet\PacketStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Packet\PacketStruct\CharItemPacketStruct.h">
+      <Filter>Network\Packet\PacketStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Packet\PacketStruct\CharLoginOutPacket.h">
+      <Filter>Network\Packet\PacketStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Packet\PacketStruct\CharLoginOutPacketStruct.h">
+      <Filter>Network\Packet\PacketStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Packet\PacketStruct\CharMovePacket.h">
+      <Filter>Network\Packet\PacketStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Packet\PacketStruct\CharQuestPacket.h">
+      <Filter>Network\Packet\PacketStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Packet\PacketStruct\CharStatusPacket.h">
+      <Filter>Network\Packet\PacketStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Packet\PacketStruct\CharStatusPacketStruct.h">
+      <Filter>Network\Packet\PacketStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Packet\PacketStruct\ClientToAuthServer.h">
+      <Filter>Network\Packet\PacketStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Packet\PacketStruct\ClientToLoginServer.h">
+      <Filter>Network\Packet\PacketStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Packet\PacketStruct\DataPacket.h">
+      <Filter>Network\Packet\PacketStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Packet\PacketStruct\FriendPacket.h">
+      <Filter>Network\Packet\PacketStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Packet\PacketStruct\GameEventPacket.h">
+      <Filter>Network\Packet\PacketStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Packet\PacketStruct\GameLogPacket.h">
+      <Filter>Network\Packet\PacketStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Packet\PacketStruct\GuildPacket.h">
+      <Filter>Network\Packet\PacketStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Packet\PacketStruct\PartyPacket.h">
+      <Filter>Network\Packet\PacketStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Packet\PacketStruct\RankingPacket.h">
+      <Filter>Network\Packet\PacketStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Packet\PacketStruct\ServerInfo.h">
+      <Filter>Network\Packet\PacketStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Packet\PacketStruct\ServerPacket.h">
+      <Filter>Network\Packet\PacketStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Packet\PacketStruct\UnifiedCharPacket.h">
+      <Filter>Network\Packet\PacketStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ClientSocket\ClientConstants.h">
+      <Filter>Network\ClientSocket</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ClientSocket\ClientSocket.h">
+      <Filter>Network\ClientSocket</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ClientSocket\LoginSocket.h">
+      <Filter>Network\ClientSocket</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ClientSocket\UDPList.h">
+      <Filter>Network\ClientSocket</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ClientSocket\parse\ParseAuthServer.h">
+      <Filter>Network\ClientSocket\Parse</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ClientSocket\parse\ParseBGServer.h">
+      <Filter>Network\ClientSocket\Parse</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ClientSocket\parse\ParseCastle.h">
+      <Filter>Network\ClientSocket\Parse</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ClientSocket\parse\ParseCharInfo.h">
+      <Filter>Network\ClientSocket\Parse</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ClientSocket\parse\ParseCommunity.h">
+      <Filter>Network\ClientSocket\Parse</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ClientSocket\parse\ParseEtc.h">
+      <Filter>Network\ClientSocket\Parse</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ClientSocket\parse\ParseFight.h">
+      <Filter>Network\ClientSocket\Parse</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ClientSocket\parse\ParseItem.h">
+      <Filter>Network\ClientSocket\Parse</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ClientSocket\parse\ParseLoginout.h">
+      <Filter>Network\ClientSocket\Parse</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ClientSocket\parse\ParseMove.h">
+      <Filter>Network\ClientSocket\Parse</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ClientSocket\parse\ParseQuest.h">
+      <Filter>Network\ClientSocket\Parse</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ClientSocket\parse\ParseSkill.h">
+      <Filter>Network\ClientSocket\Parse</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ClientSocket\send\SendAttack.h">
+      <Filter>Network\ClientSocket\Send</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ClientSocket\send\SendAuthServer.h">
+      <Filter>Network\ClientSocket\Send</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ClientSocket\send\SendBGServer.h">
+      <Filter>Network\ClientSocket\Send</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ClientSocket\send\SendCastle.h">
+      <Filter>Network\ClientSocket\Send</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ClientSocket\send\SendCommunity.h">
+      <Filter>Network\ClientSocket\Send</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ClientSocket\send\SendEtc.h">
+      <Filter>Network\ClientSocket\Send</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ClientSocket\send\SendItem.h">
+      <Filter>Network\ClientSocket\Send</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ClientSocket\send\SendLoginout.h">
+      <Filter>Network\ClientSocket\Send</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ClientSocket\send\SendMove.h">
+      <Filter>Network\ClientSocket\Send</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ClientSocket\send\SendPacket.h">
+      <Filter>Network\ClientSocket\Send</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ClientSocket\send\SendQuest.h">
+      <Filter>Network\ClientSocket\Send</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ClientSocket\send\SendSkill.h">
+      <Filter>Network\ClientSocket\Send</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\XORCrypt\XORCrypt.h">
+      <Filter>Network\XORCrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ClientNetwork\ClientEventHandler.h">
+      <Filter>Network\ClientNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ClientNetwork\EventHandler.h">
+      <Filter>Network\ClientNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ClientNetwork\MessageBlock.h">
+      <Filter>Network\ClientNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ClientNetwork\NetworkMsgBlock.h">
+      <Filter>Network\ClientNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ClientNetwork\NullHandler.h">
+      <Filter>Network\ClientNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ClientNetwork\Session.h">
+      <Filter>Network\ClientNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ClientNetwork\SessionMgr.h">
+      <Filter>Network\ClientNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ClientNetwork\TCPSession.h">
+      <Filter>Network\ClientNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ClientNetwork\UDPSession.h">
+      <Filter>Network\ClientNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Address\INET_Addr.h">
+      <Filter>Network\Address</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Broadcast\BroadcastCharacterData.h">
+      <Filter>Network\Broadcast</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Broadcast\ClientCellMgr.h">
+      <Filter>Network\Broadcast</Filter>
+    </ClInclude>
+    <ClInclude Include="Community\Guild\GuildConstants.h">
+      <Filter>Community\Guild</Filter>
+    </ClInclude>
+    <ClInclude Include="Community\Guild\GuildStructure.h">
+      <Filter>Community\Guild</Filter>
+    </ClInclude>
+    <ClInclude Include="Castle\CastleBlessMgr.h">
+      <Filter>Castle</Filter>
+    </ClInclude>
+    <ClInclude Include="Castle\CastleConstants.h">
+      <Filter>Castle</Filter>
+    </ClInclude>
+    <ClInclude Include="Quest\QuestList.h">
+      <Filter>Quest</Filter>
+    </ClInclude>
+    <ClInclude Include="Map\FieldMap\MineralVeinMgr.h">
+      <Filter>Map\FieldMap</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTime\GameTimeConstants.h">
+      <Filter>GameTime</Filter>
+    </ClInclude>
+    <ClInclude Include="GameGuardLib\ggsrv.h">
+      <Filter>GameGuardLib</Filter>
+    </ClInclude>
+    <ClInclude Include="GameGuardLib\NPGameLib.h">
+      <Filter>GameGuardLib</Filter>
+    </ClInclude>
+    <ClInclude Include="HShield\HShield.h">
+      <Filter>HShield</Filter>
+    </ClInclude>
+    <ClInclude Include="HShield\HSUpChk.h">
+      <Filter>HShield</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Utility\Math\Convert.inl">
+      <Filter>Utility\Math</Filter>
+    </None>
+    <None Include="ScriptEngine\bison.simple">
+      <Filter>ScriptEngine</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="GameGuardLib\ggsrvlib.lib">
+      <Filter>GameGuardLib</Filter>
+    </Library>
+    <Library Include="GameGuardLib\NPGameLib.lib">
+      <Filter>GameGuardLib</Filter>
+    </Library>
+    <Library Include="HShield\HShield.lib">
+      <Filter>HShield</Filter>
+    </Library>
+    <Library Include="HShield\HSUpChk.lib">
+      <Filter>HShield</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
